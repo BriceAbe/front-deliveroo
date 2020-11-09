@@ -1,38 +1,193 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
+  background-color: lightgray;
+}
+.content {
+  width: 100%;
+  height: 4291px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #f4f5f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-center {
+  width: 1200px;
+  height: 4291px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #f4f5f5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-center {
+  width: 1200px;
+  height: 60px;
+  display: flex;
+
+  align-items: center;
+}
+.header img {
+  width: 154px;
+  height: 41px;
+}
+
+.restaurant-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 293px;
+  border-top: 1px solid lightgray;
+}
+
+.restaurant-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 293px;
+}
+.restaurant-description {
+  width: 821px;
+  height: 182px;
+}
+
+.restaurant-description h1 {
+  margin-bottom: 40px;
+}
+p {
+  color: #868a8a;
+}
+h2 {
+  font-size: 18px;
+  color: #2e3333;
+}
+.restaurant-description p {
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.restaurant-img {
+  width: 350px;
+  height: 233px;
+}
+.Menu {
+  background-color: #f4f5f5;
+  width: 820px;
+  height: 4291px;
+}
+.menu-item {
+  width: 820px;
+}
+.category {
+  display: flex;
+  flex-wrap: wrap;
+}
+.containerRepas {
+  width: 400px;
+  height: 160px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.repas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+h1 {
+  font-size: 24px;
+  width: 820px;
+  height: 28px;
+}
+.description {
+  width: 225px;
+  height: 130px;
+}
+
+.noimage {
+  width: 355px;
+  height: 108px;
+}
+.titre {
+  font-size: 18px;
+  width: 225px;
+  height: 44px;
+  margin-bottom: 10px;
+}
+.desc {
+  font-size: 14px;
+  width: 225px;
+  height: 35px;
+  overflow: hidden;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.price-x {
+  margin-top: 30px;
+}
+
+.card {
+  width: 350px;
+  height: 184px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  width: 330px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 10px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.liste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 114px;
+  color: lightgray;
+}
+
+.star {
+  color: #ff8000;
+  font-size: 12px;
+  font-weight: bold;
 }
